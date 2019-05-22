@@ -1,0 +1,9 @@
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Package\QnA Package\bin\Release\netcoreapp2.1\QnA_Interactive.deps.json
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Package\QnA Package\bin\Release\netcoreapp2.1\QnA_Interactive.dll
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Package\QnA Package\bin\Release\netcoreapp2.1\QnA_Interactive.pdb
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Package\QnA Package\obj\Release\netcoreapp2.1\QnA_Interactive.csprojAssemblyReference.cache
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Package\QnA Package\obj\Release\netcoreapp2.1\QnA_Interactive.csproj.CoreCompileInputs.cache
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Package\QnA Package\obj\Release\netcoreapp2.1\QnA_Interactive.AssemblyInfoInputs.cache
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Package\QnA Package\obj\Release\netcoreapp2.1\QnA_Interactive.AssemblyInfo.cs
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Package\QnA Package\obj\Release\netcoreapp2.1\QnA_Interactive.dll
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Package\QnA Package\obj\Release\netcoreapp2.1\QnA_Interactive.pdb

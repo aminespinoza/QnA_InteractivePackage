@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\amines\\Documents\\GitHub\\QnA-Interactive\\QnA Package\\QnA Package\\QnA Package.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\amines\\Documents\\GitHub\\QnA-Interactive\\QnA Package\\QnA Package\\QnA Package.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amines\\Documents\\GitHub\\QnA-Interactive\\QnA Package\\QnA Package\\QnA Package.csproj",
+        "projectName": "QnA Package",
+        "projectPath": "C:\\Users\\amines\\Documents\\GitHub\\QnA-Interactive\\QnA Package\\QnA Package\\QnA Package.csproj",
+        "packagesPath": "C:\\Users\\amines\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amines\\Documents\\GitHub\\QnA-Interactive\\QnA Package\\QnA Package\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amines\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.Bot.Builder": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.6.9, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

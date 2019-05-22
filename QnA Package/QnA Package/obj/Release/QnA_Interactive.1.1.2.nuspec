@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>QnA_Interactive</id>
+    <version>1.1.2</version>
+    <authors>Amin Espinoza</authors>
+    <owners>Amin Espinoza</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/aminespinoza/QnA-Interactive</projectUrl>
+    <description>One package to get the best of both worlds, integration between QnA Maker and Adaptive Cards</description>
+    <repository type="git" url="https://github.com/threenine/ReflectMap" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Microsoft.Bot.Builder" version="4.3.1" exclude="Build,Analyzers" />
+        <dependency id="RestSharp" version="106.6.9" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Package\QnA Package\bin\Release\netcoreapp2.1\QnA_Interactive.dll" target="lib\netcoreapp2.1\QnA_Interactive.dll" />
+  </files>
+</package>
