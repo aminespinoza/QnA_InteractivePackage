@@ -1,0 +1,90 @@
+﻿<Window x:Class="BaseGenerator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BaseGenerator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl Margin="15">
+            <TabItem x:Name="tabSettings" Header="Knowledge base">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Knowledge base endpoint:" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtKnowledgeBaseName" HorizontalAlignment="Left" Height="24" Margin="170,8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Text="https://<your Azure region>.api.cognitive.microsoft.com"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,50,0,0" TextWrapping="Wrap" Text="Knowledge base id:" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtKnowledgeBaseId" HorizontalAlignment="Left" Height="24" Margin="170,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Text="<knowledge base id>"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,90,0,0" TextWrapping="Wrap" Text="Authorization key:" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtAuthorizationKey" HorizontalAlignment="Left" Height="24" Margin="170,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Text="<knowledge base key>"/>
+                    <Button x:Name="btnRegisterData" Content="Save data" HorizontalAlignment="Left" Height="30" Margin="10,130,0,0" VerticalAlignment="Top" Width="460" Click="BtnRegisterData_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabEditor" Header="Editor" Visibility="Collapsed">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="What kind of question you want to add?" VerticalAlignment="Top"/>
+                    <ComboBox x:Name="cmbCardSelector" HorizontalAlignment="Left" Height="21.6" Margin="10,35,0,0" VerticalAlignment="Top" Width="113.6" SelectionChanged="CmbCardSelector_SelectionChanged">
+                        <ComboBoxItem Content="Plain text"/>
+                        <ComboBoxItem Content="Hero card"/>
+                        <ComboBoxItem Content="Video card"/>
+                        <ComboBoxItem Content="Audio card"/>
+                        <ComboBoxItem Content="Carousel card"/>
+                    </ComboBox>
+                    <TextBlock x:Name="txtSelectedCard" HorizontalAlignment="Right" Margin="0,10,10,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+                    <Grid x:Name="gridPlainText" Margin="0,60,0,0" Visibility="Collapsed">
+                        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Add your question:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtPlainTextQuestion" Height="20" Margin="120,10,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,45,0,0" TextWrapping="Wrap" Text="Add your answer:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtPlainText" Margin="10,70,10,45" TextWrapping="Wrap"/>
+                        <Button x:Name="btnAddPlainTextQuestion" Content="Add question" HorizontalAlignment="Right" Height="25" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="130" Click="BtnAddPlainTextQuestion_Click"/>
+                    </Grid>
+                    <Grid x:Name="gridHeroCard" Margin="0,60,0,0" Visibility="Collapsed">
+                        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Add your question:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtHeroCardQuestion" Height="20" Margin="120,10,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,45,0,0" TextWrapping="Wrap" Text="Image url:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtHeroCardImage" Height="20" Margin="120,44,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,75,0,0" TextWrapping="Wrap" Text="Description:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtHeroCardDescription" Margin="120,70,10,45" TextWrapping="Wrap"/>
+                        <Button x:Name="btnAddHeroCardQuestion" Content="Add question" HorizontalAlignment="Right" Height="25" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="130" Click="BtnAddHeroCardQuestion_Click"/>
+                    </Grid>
+                    <Grid x:Name="gridVideoCard" Margin="0,60,0,0" Visibility="Collapsed">
+                        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Add your question:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtVideoCardQuestion" Height="20" Margin="120,10,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,45,0,0" TextWrapping="Wrap" Text="Title:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtVideoCardTitle" Height="20" Margin="120,44,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,75,0,0" TextWrapping="Wrap" Text="Description:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtVideoCardDescription" Margin="120,70,10,110" TextWrapping="Wrap"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,202,0,0" TextWrapping="Wrap" Text="Video Url:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtVideoCardMedia" Height="20" Margin="120,200,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                        <Button x:Name="btnAddVideoCardQuestion" Content="Add question" HorizontalAlignment="Right" Height="25" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="130" Click="BtnAddVideoCardQuestion_Click"/>
+                    </Grid>
+                    <Grid x:Name="gridCarouselCard" Margin="0,60,0,0" Visibility="Collapsed">
+                        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Add your question:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtCarouselCardQuestion" Height="20" Margin="120,10,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,45,0,0" TextWrapping="Wrap" Text="Title:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtCarouselCardTitle" Height="20" Margin="120,44,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,75,0,0" TextWrapping="Wrap" Text="Description:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtCarouselCardDescription" Margin="120,70,10,0" TextWrapping="Wrap" Height="80" VerticalAlignment="Top"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,162,0,0" TextWrapping="Wrap" Text="Image Url:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtCarouselCardImage" Height="20" Margin="120,160,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,192,0,0" TextWrapping="Wrap" Text="Action Url:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtCarouselCardAction" Height="20" Margin="120,190,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                        <Button x:Name="btnAddNewCarouselElement" Content="Add element" Height="25" Margin="120,220,10,0" VerticalAlignment="Top" Click="BtnAddNewCarouselElement_Click"/>
+                        <TextBlock x:Name="txtCarouselRemainingCounter" HorizontalAlignment="Left" Margin="10,0,0,10" TextWrapping="Wrap" Text="5 remaining elements" VerticalAlignment="Bottom"/>
+                        <Button x:Name="btnAddCarouselCardQuestion" Content="Add question" HorizontalAlignment="Right" Height="25" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="130" Click="BtnAddCarouselCardQuestion_Click"/>
+                    </Grid>
+                    <Grid x:Name="gridAudioCard" Margin="0,60,0,0" Visibility="Collapsed">
+                        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Add your question:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtAudioCardQuestion" Height="20" Margin="120,10,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,45,0,0" TextWrapping="Wrap" Text="Title:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtAudioCardTitle" Height="20" Margin="120,44,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,75,0,0" TextWrapping="Wrap" Text="Description:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtAudioCardDescription" Margin="120,70,10,110" TextWrapping="Wrap"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,202,0,0" TextWrapping="Wrap" Text="Audio Url:" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtAudioCardMedia" Height="20" Margin="120,200,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                        <Button x:Name="btnAddAudioCardQuestion" Content="Add question" HorizontalAlignment="Right" Height="25" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="130" Click="BtnAddAudioCardQuestion_Click"/>
+                    </Grid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

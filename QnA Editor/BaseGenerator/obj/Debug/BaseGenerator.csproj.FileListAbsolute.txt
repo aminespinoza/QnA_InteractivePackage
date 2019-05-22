@@ -1,0 +1,38 @@
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\bin\Debug\BaseGenerator.exe.config
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\bin\Debug\BaseGenerator.exe
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\bin\Debug\BaseGenerator.pdb
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\obj\Debug\BaseGenerator.csprojAssemblyReference.cache
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\obj\Debug\MainWindow.g.cs
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\obj\Debug\App.g.cs
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\obj\Debug\BaseGenerator_MarkupCompile.cache
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\obj\Debug\BaseGenerator_MarkupCompile.lref
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\obj\Debug\MainWindow.baml
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\obj\Debug\BaseGenerator.g.resources
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\obj\Debug\BaseGenerator.Properties.Resources.resources
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\obj\Debug\BaseGenerator.csproj.GenerateResource.cache
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\obj\Debug\BaseGenerator.csproj.CoreCompileInputs.cache
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\obj\Debug\BaseGenerator.exe
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\obj\Debug\BaseGenerator.pdb
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\amines\source\repos\QnA_Interactive\BaseGenerator\obj\Debug\BaseGenerator.csproj.CopyComplete
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\bin\Debug\BaseGenerator.exe.config
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\bin\Debug\BaseGenerator.exe
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\bin\Debug\BaseGenerator.pdb
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\obj\Debug\BaseGenerator.csprojAssemblyReference.cache
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\obj\Debug\MainWindow.g.cs
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\obj\Debug\App.g.cs
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\obj\Debug\BaseGenerator_MarkupCompile.cache
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\obj\Debug\BaseGenerator_MarkupCompile.lref
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\obj\Debug\MainWindow.baml
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\obj\Debug\BaseGenerator.g.resources
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\obj\Debug\BaseGenerator.Properties.Resources.resources
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\obj\Debug\BaseGenerator.csproj.GenerateResource.cache
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\obj\Debug\BaseGenerator.csproj.CoreCompileInputs.cache
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\obj\Debug\BaseGenerator.csproj.CopyComplete
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\obj\Debug\BaseGenerator.exe
+C:\Users\amines\Documents\GitHub\QnA-Interactive\QnA Editor\BaseGenerator\obj\Debug\BaseGenerator.pdb

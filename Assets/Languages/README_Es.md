@@ -2,7 +2,7 @@
 
 [Versión en español](http://github.com)
 
-[Versão em português](http://gitub.com)
+[Versao em portugues](http://gitub.com)
 
 This repo is made to add functionality by using the best of both worlds. You can use this project and NuGet package in order to create the expected answer format and display it with the desired card presentation.
 
@@ -26,4 +26,5 @@ If you clone/fork the repo and look for the QnA Editor you'll be able to make th
 
 ## Getting started with the NuGet package
 
-Once you've created your bot project, you'll be able to create an instance of the package and insert your credentials. Retrieving the answers takes only one more line of code. Sample project can be seeing [here](https://github.com/aminespinoza/BotsGallery/tree/master/Samples).
+
+Repo made for creating interactive answers supported by a QnA Maker engine
